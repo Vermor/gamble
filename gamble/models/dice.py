@@ -32,7 +32,7 @@ class Die:
         """
         return "<{}d{} Die>".format("-" if self.negative else "", self.sides)
 
-    def __repr__(self) -> str:
+    def __repr__(self):
         """
         @cc 1
         @desc dunder repr method
