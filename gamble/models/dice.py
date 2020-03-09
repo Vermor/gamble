@@ -24,7 +24,7 @@ class Die:
         self.multiplier = -1 if self.negative else 1
         self.rolls = 0
 
-    def __str__(self) -> str:
+    def __str__(self):
         """
         @cc 1
         @desc dunder str method
